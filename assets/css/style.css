@@ -313,7 +313,7 @@ a:focus {
   color: #00aced;
 }
 #contact {
-  background: url(../img/cover/contact.jpg);
+  background-color: #E44424;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -325,6 +325,13 @@ a:focus {
 #contact .heading .border { background-color: #fff }
 #contact a { display: block }
 #contact i { margin: 60px 0 15px }
+.GooglePlay {
+  margin-top: 50px;
+}
+.video {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
 #footer {
   padding: 40px 0;
   color: #ccc;
