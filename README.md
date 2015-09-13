@@ -5,6 +5,7 @@ This app was created for the Women Who Code ATX Diversity Hackathon held on Sept
 ### Description 
 This app makes networking easy by allowing users to sharing social media information with the click of one button. Users can control which social media profiles are shared and with whom. 
 
+
 ###Team Members
 Camilo Vega - Mobile Development  
 Andy Desai - Back End/Database   
