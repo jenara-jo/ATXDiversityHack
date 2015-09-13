@@ -31,6 +31,11 @@ a:focus {
      -moz-border-radius: 8px;
           border-radius: 8px;
 }
+.logo-hold {
+  clear: both;
+  margin-bottom: 3%;
+}
+
 .btn {
   font-size: 12px;
   font-weight: bold;
