@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cvdevelopers.freelancemanager.UIFragments.AddContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageButton
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/fragment_add_contact_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/students" />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/fragment_add_contact_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/fragment_add_contact_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/fragment_add_contact_description"
+        android:layout_alignBottom="@+id/fragment_add_contact_image"
+        android:layout_alignLeft="@+id/fragment_add_contact_name"
+        android:hint="@string/fragment_add_contact_reference" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/fragment_add_contact_phone"
+        android:layout_below="@+id/fragment_add_contact_description"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/fragment_add_contact_image"
+        android:hint="@string/fragment_add_contact_phone"
+        android:layout_alignRight="@+id/fragment_add_contact_description"
+        android:layout_alignEnd="@+id/fragment_add_contact_description" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/fragment_add_contact_email"
+        android:layout_below="@+id/fragment_add_contact_phone"
+        android:layout_alignLeft="@+id/fragment_add_contact_phone"
+        android:layout_alignRight="@+id/fragment_add_contact_phone"
+        android:layout_marginTop="10dp"
+        android:hint="@string/fragment_add_contact_email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/fragment_add_contact_address"
+        android:layout_below="@+id/fragment_add_contact_email"
+        android:layout_alignLeft="@+id/fragment_add_contact_email"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/fragment_add_contact_email"
+        android:hint="@string/fragment_add_contact_address" />
+
+</RelativeLayout>

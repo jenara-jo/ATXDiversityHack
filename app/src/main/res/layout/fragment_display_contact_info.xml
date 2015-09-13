@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cvdevelopers.freelancemanager.UIFragments.DisplayContactInfoFragment"
+    android:background="@color/background_color">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/fragment_display_contact_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:src="@mipmap/profile_1"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="false"
+        android:background="@color/background_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/fragment_display_contact_name"
+        android:layout_below="@+id/fragment_display_contact_image"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_info_listview"
+        android:layout_centerHorizontal="true"
+        tools:listitem="@layout/contact_display_segment"
+        android:layout_below="@+id/fragment_display_contact_name"
+        android:layout_alignParentBottom="true"
+        android:dividerHeight="10dp"
+        android:divider="@color/background_color"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp" />
+
+
+</RelativeLayout>

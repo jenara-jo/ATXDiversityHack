@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:colorPrimary">@color/background_color</item>
+        <item name="android:colorPrimaryDark">@color/background_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorPrimary">@color/text_color</item>
+        <item name="colorAccent">@color/background_color</item>
+        <item name="android:navigationBarColor">@color/background_color</item>
+    </style>
+    <color
+        name="background_color"
+        >#EFE6DC</color>
+    <color
+        name="text_color"
+        >#FF3300</color>
+    <color
+        name="item_bg_color"
+        >#FFAD99</color>
+
+</resources>

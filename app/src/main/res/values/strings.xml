@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Met You</string>
+
+    <string name="title_section1">Contacts</string>
+    <string name="title_section2">View Profile</string>
+    <string name="title_section3">Requests</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Create Client-->
+    <string name="title_activity_create_client">Add Client</string>
+    <string name="fragment_add_contact_name">Name</string>
+    <string name="fragment_add_contact_reference">Reference</string>
+    <string name="fragment_add_contact_phone">Phone Number</string>
+    <string name="fragment_add_contact_email">Email</string>
+    <string name="fragment_add_contact_address">Address</string>
+    <string name="fragment_add_contact_linkedin">LinkedIn</string>
+    <string name="fragment_add_contact_facebook">Facebook</string>
+    <string name="fragment_add_contact_event">Event Name</string>
+    <string name="fragment_add_contact_notes">Notes</string>
+    <string name="fragment_add_contact_from_contact">Contact List</string>
+    <string name="fragment_add_contact_save">Save</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string-array
+        name="dummy_contact_names">
+        <item>Camilo</item>
+        <item>Alexandria</item>
+        <item>Ellen</item>
+        <item>Maria</item>
+        <item>Carlos</item>
+    </string-array>
+    <string-array
+        name="dummy_contact_events">
+        <item>Hackathon Diversity</item>
+        <item>highschool meetup</item>
+        <item>hispanic meetup</item>
+        <item>Capital Factory</item>
+        <item>Hackathon Diversity</item>
+    </string-array>
+</resources>
