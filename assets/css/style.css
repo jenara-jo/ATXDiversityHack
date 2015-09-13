@@ -31,6 +31,19 @@ a:focus {
      -moz-border-radius: 8px;
           border-radius: 8px;
 }
+.Screen {
+  width: 32%;
+
+}
+
+.MoreInfo {
+  float: left;
+  margin-left: 50px;
+  width: 38%;
+  height: 200px;
+  border: 1px solid black;
+
+}
 .logo-hold {
   clear: both;
   margin-bottom: 3%;
@@ -142,6 +155,7 @@ a:focus {
   margin: 0 auto;
   background-color: #71be3c;
 }
+
 .page .heading p { margin: 20px auto 0 }
 #home {
   padding: 0;
@@ -271,6 +285,7 @@ a:focus {
 }
 #about {
   background-color: #67BCDB;
+  padding-bottom: 20px;
 }
 #about .content { padding-bottom: 0 }
 #about .teammate { 
